@@ -1,4 +1,4 @@
-module github.com/grafana/grafana-api-golang-client
+module github.com/HenriquePiccolo/grafana-api-golang-client
 
 go 1.14
 
