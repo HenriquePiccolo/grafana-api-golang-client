@@ -46,7 +46,7 @@ type UserSearch struct {
 
 // Users fetches and returns Grafana users.
 func (c *Client) Users() (users []UserSearch, err error) {
-	err = c.request("GET", "/api/users", nil, nil, &users)
+	err = c.request("GET", "/api/users?perpage=20000", nil, nil, &users)
 	return
 }
 
